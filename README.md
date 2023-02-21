@@ -1,2 +1,4 @@
 # portfolio-v1
-Version 1 Portfolio Site
+This is my portfolio 2023 v1 portfolio 
+
+[View Demo](https://kqimi.github.io/portfolio-v1/)
