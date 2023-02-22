@@ -1,23 +1,111 @@
 body {
-    height: 100vh;
-    width: 100vw;
-    background-color: black;
-    margin: 0rem;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* css reset */
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* nav */
+.main-nav {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation ul li {
+    display: inline;
+    padding: 10px;
+    margin: 0;
     overflow: hidden;
 }
 
-#image-track>.image {
-    width: 40vmin;
-    height: 56vmin;
-    object-fit: cover;
-    object-position: 100% center;
+.navigation ul li a {
+    color: #000000;
 }
 
-#image-track {
+.navigation ul li a:hover {
+    color: #000000;
+    font-weight: bold;
+}
+
+/* hero section */
+.hero-content {
     display: flex;
-    gap: 4vmin;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(0%, -50%);
+    padding-top: 5%;
+}
+
+.textbox {
+    flex-basis: 45%;
+    padding: 25px 60px;
+}
+
+.textbox h1 {
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.textbox p {
+    color: #9392a3;
+}
+
+.img-box {
+    flex-basis: 50%;
+}
+
+.img-box img {
+    width: 1000px;
+
+}
+
+.btn {
+    padding: 20px 0;
+}
+
+.btn a {
+    background: #2b1d34;
+    color: #fcfbfe;
+    padding: 10px 35px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+
+/* icons */
+.icon ul li {
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.icon ul {
+    margin: 0;
+    padding: 0;
+}
+
+.icon img {
+    padding-top: 15px;
+    width: 29px;
+    height: 29px;
+}
+
+.icon h4 {
+    cursor: pointer;
 }
